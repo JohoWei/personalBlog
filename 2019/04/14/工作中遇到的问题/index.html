@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="工作中遇到的问题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="工作中遇到的问题">
+<meta property="og:url" content="http://example.com/2019/04/14/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:site_name" content="Joho&#39;Blog">
+<meta property="og:description" content="工作中遇到的问题">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220126141416653.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220126150205849.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220126150931861.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220121092541800.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220210090645509.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220210090653602.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220211153554720.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220211153757171.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220217102551931.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220217102635781.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220217104603715.png">
+<meta property="article:published_time" content="2019-04-14T15:10:17.000Z">
+<meta property="article:modified_time" content="2022-02-22T07:16:52.777Z">
+<meta property="article:author" content="Joho Wei">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20220126141416653.png">
+
+<link rel="canonical" href="http://example.com/2019/04/14/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>工作中遇到的问题 | Joho'Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Joho'Blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+    <a target="_blank" rel="noopener" href="https://your-url" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Joho'Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">www.joho.cn</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2019/04/14/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF">
+      <meta itemprop="name" content="Joho Wei">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Joho'Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          工作中遇到的问题
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-04-14 23:10:17" itemprop="dateCreated datePublished" datetime="2019-04-14T23:10:17+08:00">2019-04-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-02-22 15:16:52" itemprop="dateModified" datetime="2022-02-22T15:16:52+08:00">2022-02-22</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AE%9E%E6%88%98/" itemprop="url" rel="index"><span itemprop="name">实战</span></a>
+                </span>
+            </span>
+
+          
+            <div class="post-description">工作中遇到的问题</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h1><h3 id="外网连接"><a href="#外网连接" class="headerlink" title="外网连接"></a>外网连接</h3><p>​    如果项目有外网地址，在前端文件vue.config.js里面的target修改代理即可</p>
+<h3 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h3><h4 id="页面渲染时数据能获取但报错"><a href="#页面渲染时数据能获取但报错" class="headerlink" title="页面渲染时数据能获取但报错"></a><strong>页面渲染时数据能获取但报错</strong></h4><p>​    报错原因：property（属性）找不到</p>
+<pre><code>  与生命周期钩子函数相关，将初始化数据放在created里，会保证vue实例在渲染成真实dom元素之前获取到数据。
+</code></pre>
+<p>​        vue的生命周期函数包括：beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed。</p>
+<p>​        分析一下整个vue的生命周期过程：</p>
+<ol>
+<li><p>new实例化一个vue实例，然后init初始化event和lifecycle，这个过程中分别调用了3个初始化函数（initLifecycle(), initEvents(), initRender()），分别初始化了生命周期，事件以及定义createElement函数，初始化生命周期时，定义了一些属性，比如表示当前状态生命周期状态得_isMounted ，_isDestroyed ，_isBeingDestroyed，表示keep-alive中组件状态的_inactive，而初始化event时，实际上就是定义了$once、$off、$emit、$on几个函数。而createElement函数是在初始化render时定义的（调用了initRender函数）</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我们尝试每个过程打印这两个数据</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">message</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">$el</span>)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>然后执行beforeCreate生命周期函数，此时我们拿不到data数据和$el<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220126141416653.png" alt="image-20220126141416653"></p>
+</li>
+<li><p>执行created生命周期函数，此时这个过程会定义data数据、方法以及事件，完成数据劫持observe以及组件实例化，可以看到此时已经可以访问到data数据，但是$el仍然拿不到。<strong>一般在这里做初始数据的获取</strong></p>
+<p>执行完created生命周期函数后会有一个对于$el的判断，判断是否有template参数，也就是写在vue实例里面的template，如果有该参数，会将该参数转换成render函数，如果没有，我们就会直接获取到el(也就是常用的[[app]]等)，判断优先级：render函数选项 &gt; template选项 &gt; outer HTML</p>
+<p>如果要在created阶段中进行dom操作，就要将操作都放在 Vue.nextTick() 的回调函数中，<strong>因为created() 钩子函数执行的时候 DOM 其实并未进行任何渲染</strong>，而此时进行 DOM 操作无异于徒劳，所以此处一定要将 DOM 操作的 js 代码放进 Vue.nextTick() 的回调函数中。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//render函数</span></span><br><span class="line"><span class="attr">render</span>: <span class="keyword">function</span>(<span class="params">createElement</span>) &#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="title function_">createElement</span>(<span class="string">&#x27;h1&#x27;</span>, <span class="string">&#x27;this is createElement&#x27;</span>)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220126150205849.png" alt="image-20220126150205849"></p>
+<ol start="4">
+<li>然后执行beforeMount生命周期函数，该过程主要工作就是将template模板或者$el转换成render函数，无论我们用vue文件(组件)、template模板还是$el都是会被转换成render函数的。beforeMount调用后要开始渲染render函数，首先会生成一个虚拟DOM(用于后面数据发生变化时，新老虚拟DOM进行对比，然后实现更新)，然后再将render函数渲染为真实的DOM，渲染出来的真实DOM会替换掉原来的$el。<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220126150931861.png" alt="image-20220126150931861"></li>
+<li>执行完mounted函数，并将标识生命周期的一个属性_isMounted 置为true。所以mounted函数内，我们是可以操作dom的，因为这个时候dom已经渲染完成了。</li>
+<li>当数据发生变化时，就会执行beforeUpdate生命周期函数，需要注意的是，内部有一个判断，会去判断当前的_isMounted是不是为true _isDestroyed是不是为false，如果满足这两个条件，也就是当前组件未被销毁，才可以执行updated流程。走updated流程前，会生成一个虚拟DOM，和原来的DOM进行对比，然后将新生成的虚拟DOM，然后将render函数渲染成真实的DOM元素。</li>
+<li>然后再执行updated，所以updated里面也可以操作dom，并拿到最新更新后的dom。不过这里我要插一句话了，mouted和updated的执行，并<strong>不会等待所有子组件都被挂载完成后再执行</strong>，所以如果你希望所有视图都更新完毕后再做些什么事情，那么你最好在mouted或者updated中加一个**$nextTick（）**</li>
+<li>beforeDestroy函数，实例销毁前，也就是说在这个函数内，还是可以操作实例的，之后会做一系列的销毁动作，解除各种数据引用，移除事件监听，删除组件_watcher，删除子实例，删除自身self等。同时将实例属性_isDestroyed置为true</li>
+<li>销毁完成后，再执行destroyed</li>
+</ol>
+<h4 id="v-for动态的input框添加rule验证规则"><a href="#v-for动态的input框添加rule验证规则" class="headerlink" title="v-for动态的input框添加rule验证规则"></a><strong>v-for动态的input框添加rule验证规则</strong></h4><p>​    普通的input可以直接在根元素上加rules和prop指向规则，但是动态v-for循环出input框直接添加rules和prop会导致所有input框都添加上验证规则，但是当验证通过后，还是会提示验证错误的信息。</p>
+<p>解决方法：利用input框的下标index,留意prop和rules都是动态声明，验证规则也是要回调callback</p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220121092541800.png" alt="image-20220121092541800"></p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220210090645509.png" alt="image-20220210090645509"></p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220210090653602.png" alt="image-20220210090653602"></p>
+<h4 id="vue请求数据"><a href="#vue请求数据" class="headerlink" title="vue请求数据"></a>vue请求数据</h4><p>vue请求数据放在created好还是mounted里好？</p>
+<p>建议放在created里<br>created:在模板渲染成html前调用，即通常初始化某些属性值，然后再渲染成视图。<br>mounted:在模板渲染成html后调用，通常是初始化页面完成后，再对html的dom节点进行一些需要的操作。</p>
+<p>如果在mounted钩子函数中请求数据可能导致页面闪屏问题<br>其实就是加载时机问题，放在created里会比mounted触发早一点，如果在页面挂载完之前请求完成的话就不会看到闪屏了</p>
+<h4 id="请你说说vue中-nextTick用法及原理"><a href="#请你说说vue中-nextTick用法及原理" class="headerlink" title="请你说说vue中$nextTick用法及原理"></a>请你说说vue中$nextTick用法及原理</h4><p><strong>定义</strong></p>
+<p>在下次 DOM 更新循环结束之后执行延迟回调。在修改数据之后立即使用这个方法，获取更新后的 DOM。</p>
+<p>官方理解：Vue 实现响应式并不是数据发生变化之后 DOM 立即变化，而是按一定的策略进行 DOM 的更新。$nextTick 是在下次 DOM 更新循环结束之后执行延迟回调，在修改数据之后使用 $nextTick，则可以在回调中获取更新后的 DOM</p>
+<p>个人理解：nextTick()，是将回调函数延迟在下一次dom更新数据后调用，即数据更新了，在dom渲染完成后调用该函数</p>
+<p>应用场景：在视图更新后，基于新的视图进行操作（在created和mounted阶段需要操作新的视图，也要使用$nextTick），注意，如果想在对话框打开时使用$nextTick要确保dialog对话框:open&#x3D;’true’后再使用</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="title function_">component</span>(<span class="string">&#x27;example&#x27;</span>, &#123;</span><br><span class="line">  <span class="attr">template</span>: <span class="string">&#x27;&lt;span&gt;&#123;&#123; message &#125;&#125;&lt;/span&gt;&#x27;</span>,</span><br><span class="line">  <span class="attr">data</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">      <span class="attr">message</span>: <span class="string">&#x27;未更新&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">methods</span>: &#123;</span><br><span class="line">    <span class="attr">updateMessage</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">      <span class="variable language_">this</span>.<span class="property">message</span> = <span class="string">&#x27;已更新&#x27;</span></span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">$el</span>.<span class="property">textContent</span>) <span class="comment">// =&gt; &#x27;未更新&#x27;</span></span><br><span class="line">      <span class="variable language_">this</span>.$nextTick(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">$el</span>.<span class="property">textContent</span>) <span class="comment">// =&gt; &#x27;已更新&#x27;</span></span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="组件缓存"><a href="#组件缓存" class="headerlink" title="组件缓存"></a>组件缓存</h4><p>组件缓存需要用到keep-alive和activated连用。</p>
+<p>应用场景：遇到需要频繁访问的业务或者执行频率比较高的页面就需要用到keep-alive来实现组件保持当前状态从而避免重新渲染。</p>
+<p>当使用keep-alive包裹组件之后，就会多出两个周期函数activated和deactivated</p>
+<p>activated： 在组件第一次渲染时会被调用，之后在每次缓存组件被激活时调用。钩子触发的顺序是created-&gt;mounted-&gt;activated，所以一般需要频繁访问的业务或者执行频率比较高的页面请求放在activated函数里</p>
+<hr>
+<h4 id="关于methods方法中获取数据后，在作用域外访问不到data属性"><a href="#关于methods方法中获取数据后，在作用域外访问不到data属性" class="headerlink" title="关于methods方法中获取数据后，在作用域外访问不到data属性"></a>关于methods方法中获取数据后，在作用域外访问不到data属性</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">queryProjectList</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="comment">// 查询项目</span></span><br><span class="line"> 	<span class="title function_">getAction</span>(<span class="string">&#x27;web/projectTask/taskListByProject&#x27;</span>).<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;&#125;)</span><br><span class="line">    <span class="keyword">if</span>(res.<span class="property">success</span>)&#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">noteList</span> = res.<span class="property">result</span>.<span class="title function_">filter</span>(<span class="function"><span class="params">project</span> =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">if</span>(project.<span class="property">kind</span> === <span class="string">&#x27;0&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> project</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;)</span><br><span class="line">consloe.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">noteList</span>) <span class="comment">//[]</span></span><br></pre></td></tr></table></figure>
+
+<p>在普通通过接口获取数据，并且将数据赋值给this.noteList后，在then作用域外访问this.noteList是初始化数据，并未得到赋值后的数据</p>
+<p>改为async await方法可以解决这个问题</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="title function_">queryProjectList</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="comment">// 查询项目</span></span><br><span class="line">      <span class="keyword">const</span> res = <span class="keyword">await</span> <span class="title function_">getAction</span>(<span class="string">&#x27;web/projectTask/taskListByProject&#x27;</span>)</span><br><span class="line">      <span class="keyword">if</span>(res.<span class="property">success</span>)&#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">noteList</span> = res.<span class="property">result</span>.<span class="title function_">filter</span>(<span class="function"><span class="params">project</span> =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">if</span>(project.<span class="property">kind</span> === <span class="string">&#x27;0&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> project</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">       &#125;</span><br><span class="line">consloe.<span class="title function_">log</span>(<span class="variable language_">this</span>.<span class="property">noteList</span>)    <span class="comment">//[&#123;...&#125;,&#123;...&#125;,&#123;...&#125;]</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="async-await"><a href="#async-await" class="headerlink" title="async await"></a>async await</h5><p>​    async表示函数里有异步操作，await表示后面的表达式需要等待结果返回</p>
+<p>​    <strong>async函数基本用法</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">timeout</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;hello world&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">timeout</span>();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;虽然在后面，但是我先执行&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>​    打开控制台，发现输出的是log语句，将timeout函数输出</p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220211153554720.png" alt="image-20220211153554720"></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">timeout</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;hello world&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">timeout</span>());</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;虽然在后面，但是我先执行&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>​    打开控制台，发现timeout函数返回的是一个promise函数，如果要将结果输出，正常的操作是promise函数后面用then方法</p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220211153757171.png" alt="image-20220211153757171"></p>
+<p>​    考虑一下await关键字，await就是等待返回结果，一般后面跟需要执行的表达式，并且await是放在async函数里面的，修改上面函数</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">async function timeout() &#123;</span><br><span class="line">	let res = await fun()</span><br><span class="line">&#125;</span><br><span class="line">function fun()&#123;</span><br><span class="line">	console.log(&#x27;a&#x27;)</span><br><span class="line">&#125;</span><br><span class="line">console.log(&#x27;虽然在后面，但是我先执行&#x27;);</span><br></pre></td></tr></table></figure>
+
+<p>​    <strong>注意事项</strong></p>
+<ol>
+<li><p>直接返回promise值</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> asyncResult = <span class="keyword">await</span> awaitPromise；</span><br><span class="line">asyncResult不用then方法就可以获取resolve的值</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>只有当async有return的时候，才会返回promise对象，then方法才有效</p>
+</li>
+<li><p>await命令后面可以是一个promise对象，也可以是原始类型值</p>
+</li>
+<li><p>当存在多个await的时候，有一个await后面返回的是reject，那么剩余的await将不再执行</p>
+</li>
+</ol>
+<hr>
+<h4 id="element-table组件"><a href="#element-table组件" class="headerlink" title="element-table组件"></a>element-table组件</h4><p>​    遇到一个遍历map数据结构的问题，需要将map结构用el-table的形式遍历，起初我的思路是将map数据改成数组的形式遍历，但是因为不太熟悉el-table-column标签，导致双重遍历太过复杂且遍历失败。</p>
+<p>​    解决方法：</p>
+<ol>
+<li>先将后端传来的dataMap转换成JSON数组，因为el-table中的data属性是需要以数组的形式读取的</li>
+<li>其次需求中，表格内容中城市和选项的选中的总选次数是同级的，所以需要将map数据改为新的同级数据</li>
+<li>然后到el-table-column遍历数据，因为数据结构的问题，所以我们拿到的是每一个dataMap，但是dataMap里面不止一个地市数据，并且表头是问卷的题目，所以如果从每个地市数据中再去遍历其选项(键)，就会很复杂，刚好接口数据中还有一个属性是fieldName，其值就是每个题目的选项，并且他的值在dataMap的每个地市数据的属性名(键)中能找到</li>
+<li>于是el-table-column遍历fieldName属性，拿到值(选项)做为表头，然后利用动态绑定prop，prop的作用是对应列内容的字段名，也可以使用 property 属性，prop的取值是option，<strong>注意</strong>这个option不是fieldName的值吗，怎么又可以作为字段名，这里就要留意，此时prop的值option并不是代表取fieldName值，而是刚好fieldName的值，可以在每个地市数据下面的属性名(键)找到，于是就取option作为prop的值，然后就可以拿到每个地市数据下的值(city除外，因为option没有city这个值)，于是el-table就拿到了每个选项和每个选项下面选中的总次数，地市则用scope插槽实现</li>
+</ol>
+<p>​                    <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220217102551931.png" alt="image-20220217102551931"><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220217102635781.png" alt="image-20220217102635781"><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220217104603715.png" alt="image-20220217104603715"></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">res.<span class="property">data</span>.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> &#123;</span><br><span class="line">            <span class="keyword">let</span> temp = <span class="title class_">Object</span>.<span class="title function_">entries</span>(item.<span class="property">dataMap</span>).<span class="title function_">map</span>(<span class="function">(<span class="params">[key,value]</span>) =&gt;</span>&#123;</span><br><span class="line">              <span class="keyword">return</span> &#123;</span><br><span class="line">                 <span class="attr">city</span>: key,</span><br><span class="line">                ...value</span><br><span class="line">              &#125;</span><br><span class="line">           &#125;)</span><br><span class="line">            item.<span class="property">dataMap</span> = temp</span><br><span class="line">          &#125;)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-table :data=<span class="string">&quot;item.dataMap&quot;</span> border style=<span class="string">&quot;width:100%&quot;</span>  &gt;</span><br><span class="line">              <span class="language-xml"><span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">label</span>=<span class="string">&quot;地市&quot;</span> &gt;</span></span></span><br><span class="line"><span class="language-xml">                <span class="tag">&lt;<span class="name">template</span> <span class="attr">slot-scope</span>=<span class="string">&quot;scope&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">                  &#123;&#123; scope.row.city &#125;&#125;</span></span><br><span class="line"><span class="language-xml">                <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">              <span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span></span><br><span class="line">              <span class="language-xml"><span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">:label</span>=<span class="string">&quot;option&quot;</span> <span class="attr">:resizable</span>=<span class="string">&quot;false&quot;</span> <span class="attr">v-for</span>=<span class="string">&quot;option in item.fieldName&quot;</span> <span class="attr">:key</span>=<span class="string">&quot;option&quot;</span> <span class="attr">:prop</span>=<span class="string">&quot;option&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">              <span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span></span><br><span class="line">            &lt;<span class="regexp">/el-table&gt;&lt;el-table-column :label=&quot;option&quot; :resizable=&quot;false&quot; v-for=&quot;option in item.fieldName&quot; :key=&quot;option&quot; :prop=&quot;option&quot;&gt;&lt;/</span>el-table-column&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="web性能优化"><a href="#web性能优化" class="headerlink" title="web性能优化"></a>web性能优化</h3><ol>
+<li><p>网页内容</p>
+<ol>
+<li><p>减少http请求次数</p>
+<p>http请求是有成本损耗的，一个完整的请求都需要经过 DNS寻址、与服务器建立连接、发送数据、等待服务器响应、接收数据这样一个 “漫长” 而复杂的过程。</p>
+<p>有效的减少请求途径：</p>
+<ol>
+<li><p>设计层面实现页面简化</p>
+</li>
+<li><p>合理设置http缓存，能缓存越多越好，越久越好</p>
+<p>2.1 在页面头部meta设置expires或者cache-control，如：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta http-equiv=<span class="string">&quot;Cache-Control&quot;</span> content=<span class="string">&quot;max-age=7200&quot;</span> /&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Expires&quot;</span> <span class="attr">content</span>=<span class="string">&quot;Mon, 20 Jul 2013 23:00:00 GMT&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>​    cache-control的值可设为：no-cache&#x2F;&#x2F;no-store&#x2F;&#x2F;max-age</p>
+<p>​    (1) no-cache:表面意为“数据内容不被缓存”，而实际数据是被缓存到本地的，只是每次请求时候直接绕过缓存这一环节直接向服务器请求最新资源，由于浏览器解释不一样，例如ie中我们设置了no-cache之后，请求虽然不会直接使用缓存，但是还会用缓存数据与服务器数据进行一致性检测(也就是说还是有几率会用到缓存的),firefox中则完全无视no-cache存在，常用no-store</p>
+<p>​    (2) no-store:指示缓存不存储此次请求的响应部分。与no-cache比较来说，一个是不用缓存，一个是不存储缓存;按理来说这个设置更加粗暴直接禁用缓存，但是具体实现起来浏览器之间差异却特别大，一般不会直接用该字段进行设置，不过no-store是为了防止缓存被恶意修改存储路径导致信息被泄露而设置的，毕竟有它的用处，在firefox浏览器中设置no-store可起到和no-cache一样的效果</p>
+<p>​    (3) max-age:值是请求成功后的秒数，例如Cache-control: max-age&#x3D;3；表示此次请求成功后3秒之内发送同样请求不会去服务器重新请求，而是使用本地缓存；同样我们如果设置max-age&#x3D;0表示立即抛弃缓存直接发送请求到服务器</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="echarts常用属性"><a href="#echarts常用属性" class="headerlink" title="echarts常用属性"></a>echarts常用属性</h3><h5 id="legend-图例组件"><a href="#legend-图例组件" class="headerlink" title="legend(图例组件)"></a><strong>legend(图例组件)</strong></h5><ul>
+<li><p>show：控制图例组件的显示</p>
+</li>
+<li><p>top、left、bottom、right：设置百分比或者绝对值可控制其位置</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">legend</span>:&#123;</span><br><span class="line">    <span class="attr">show</span>:<span class="literal">true</span></span><br><span class="line">	<span class="attr">top</span>: <span class="string">&quot;4%&quot;</span>  <span class="comment">// top: 20</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>orient：通过设置horizontal、vertical控制水平还是垂直方向显示</p>
+</li>
+</ul>
+<h5 id="grid"><a href="#grid" class="headerlink" title="grid"></a><strong>grid</strong></h5><ul>
+<li><p>top、left、bottom、right：设置百分比或者绝对值控制容器的位置</p>
+</li>
+<li><p>width、height：设置百分比或者绝对值控制容器的宽高</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">grid</span>:&#123;</span><br><span class="line">	<span class="attr">left</span>: <span class="number">60</span>,  <span class="comment">//左留白</span></span><br><span class="line">	<span class="attr">top</span>: <span class="number">50</span>,   <span class="comment">//上留白</span></span><br><span class="line">	<span class="attr">right</span>: <span class="number">50</span>,  <span class="comment">//右留白</span></span><br><span class="line">	<span class="attr">bottom</span>: <span class="number">50</span>,  <span class="comment">//下留白</span></span><br><span class="line">	<span class="attr">width</span>:<span class="string">&quot;70%&quot;</span>,</span><br><span class="line">	<span class="attr">height</span>:<span class="string">&quot;70%&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h5 id="xAxis、yAxis"><a href="#xAxis、yAxis" class="headerlink" title="xAxis、yAxis"></a><strong>xAxis、yAxis</strong></h5><p>​    常用数组对象的形式</p>
+<ul>
+<li><p>type：可设置value(数值轴)、category(类目轴)、time(时间轴)、log(对数轴)，当type的值是category的时候，可以通过series.data或dataset.source中获取，也可以通过xAxis设置data</p>
+</li>
+<li><p>boundaryGap：坐标轴两旁留白策略，默认为true，此时刻度线作为分割线，标签和数据点会在两个刻度之间</p>
+</li>
+<li><p>min、max：设置刻度最小值、最大值</p>
+</li>
+<li><p>splitNumber：坐标轴分割段数，可以通过max &#x3D; splitNumber * interval计算</p>
+</li>
+<li><p>axisLine：坐标轴相关设置</p>
+<ol>
+<li>show：设置坐标轴轴线的显示与否</li>
+<li>lineStyle：设置坐标轴轴线的样式</li>
+</ol>
+</li>
+<li><p>axisTick：坐标轴刻度相关设置</p>
+<ol>
+<li>length：设置刻度线长度</li>
+</ol>
+</li>
+<li><p>splitLine：坐标轴在grid区域中的分割线，可添加lineStyle属性对其修改样式</p>
+</li>
+<li><p>splitArea：坐标轴在grid区域中的分割区域，默认不显示</p>
+</li>
+<li><p>axisLabel：坐标轴标签相关设置</p>
+<ol>
+<li><p>show：设置是否显示刻度标签</p>
+</li>
+<li><p>formatter：刻度标签的内容格式器，支持字符串模板和回调函数两种形式。</p>
+<ul>
+<li>formatter: ‘{value}kg’</li>
+<li>formatter: function(value,index){ return value + ‘kg’ }，默认第一个参数是值，第二个参数是下标</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">xAxis</span>: [</span><br><span class="line">            &#123;   </span><br><span class="line">                <span class="attr">type</span>: <span class="string">&#x27;category&#x27;</span>,</span><br><span class="line">                <span class="attr">axisTick</span>: &#123;</span><br><span class="line">                  <span class="attr">length</span>:<span class="number">0</span></span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">axisLine</span>:&#123;</span><br><span class="line">                  <span class="attr">show</span>:<span class="literal">false</span>,</span><br><span class="line">                  <span class="attr">lineStyle</span>:&#123;</span><br><span class="line">                    <span class="attr">color</span>:<span class="string">&quot;rgba(12, 12, 13, 1)&quot;</span></span><br><span class="line">                  &#125;</span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">position</span>: <span class="string">&#x27;bottom&#x27;</span>,</span><br><span class="line">                <span class="attr">offset</span>: <span class="number">5</span>,</span><br><span class="line">                <span class="attr">data</span>: [<span class="string">&#x27;广东&#x27;</span>,<span class="string">&#x27;深圳&#x27;</span>,<span class="string">&#x27;东莞&#x27;</span>,<span class="string">&#x27;佛山&#x27;</span>,<span class="string">&#x27;汕头&#x27;</span>,<span class="string">&#x27;惠州&#x27;</span>,<span class="string">&#x27;珠海&#x27;</span>,<span class="string">&#x27;江门&#x27;</span>,],</span><br><span class="line">            &#125;,</span><br><span class="line">        ],</span><br><span class="line"><span class="attr">yAxis</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="attr">type</span>: <span class="string">&#x27;value&#x27;</span>,</span><br><span class="line">                <span class="attr">position</span>:<span class="string">&#x27;left&#x27;</span>,</span><br><span class="line">                <span class="attr">axisLine</span>:&#123;</span><br><span class="line">                  <span class="attr">show</span>: <span class="literal">false</span>,</span><br><span class="line">                  <span class="attr">lineStyle</span>:&#123;</span><br><span class="line">                    <span class="attr">color</span>:<span class="string">&quot;rgba(12, 12, 13, 1)&quot;</span></span><br><span class="line">                  &#125;</span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">axisTick</span>:&#123;</span><br><span class="line">                  <span class="attr">show</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">axisLabel</span>: &#123;</span><br><span class="line">                    <span class="attr">textStyle</span>: &#123;</span><br><span class="line">                        <span class="attr">fontSize</span>: <span class="string">&#x27;10&#x27;</span></span><br><span class="line">                    &#125;,</span><br><span class="line">                    <span class="attr">formatter</span>:<span class="keyword">function</span>(<span class="params">value,index</span>)&#123;</span><br><span class="line">                      <span class="keyword">return</span> value</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">splitArea</span>: &#123;</span><br><span class="line">                  <span class="attr">show</span>: <span class="literal">false</span></span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">splitLine</span>:&#123;</span><br><span class="line">                  <span class="attr">lineStyle</span>:&#123;</span><br><span class="line">                    <span class="attr">color</span>: <span class="string">&quot;rgba(221, 207, 207, 0.7)&quot;</span></span><br><span class="line">                  &#125;</span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="attr">max</span>: <span class="number">450000</span>, <span class="comment">//最大刻度</span></span><br><span class="line">                <span class="attr">splitNumber</span>: <span class="number">10</span>, <span class="comment">// 分割线数量</span></span><br><span class="line">                <span class="attr">interval</span>: <span class="number">50000</span> <span class="comment">//刻度间隔   max = splitNumber * interval</span></span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+</ul>
+<p>前端接口限流操作，使用场景：一个用户执行恶意请求</p>
+
+    </div>
+
+    
+    
+    
+
+    <div>
+      
+        
+
+
+      
+    </div>
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/02/22/Vue%E7%AC%94%E8%AE%B0/" rel="next" title="Vue">
+      Vue <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF"><span class="nav-number">1.</span> <span class="nav-text">前端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%96%E7%BD%91%E8%BF%9E%E6%8E%A5"><span class="nav-number">1.0.1.</span> <span class="nav-text">外网连接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue"><span class="nav-number">1.0.2.</span> <span class="nav-text">Vue</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A1%B5%E9%9D%A2%E6%B8%B2%E6%9F%93%E6%97%B6%E6%95%B0%E6%8D%AE%E8%83%BD%E8%8E%B7%E5%8F%96%E4%BD%86%E6%8A%A5%E9%94%99"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">页面渲染时数据能获取但报错</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#v-for%E5%8A%A8%E6%80%81%E7%9A%84input%E6%A1%86%E6%B7%BB%E5%8A%A0rule%E9%AA%8C%E8%AF%81%E8%A7%84%E5%88%99"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">v-for动态的input框添加rule验证规则</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#vue%E8%AF%B7%E6%B1%82%E6%95%B0%E6%8D%AE"><span class="nav-number">1.0.2.3.</span> <span class="nav-text">vue请求数据</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%B7%E4%BD%A0%E8%AF%B4%E8%AF%B4vue%E4%B8%AD-nextTick%E7%94%A8%E6%B3%95%E5%8F%8A%E5%8E%9F%E7%90%86"><span class="nav-number">1.0.2.4.</span> <span class="nav-text">请你说说vue中$nextTick用法及原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E7%BC%93%E5%AD%98"><span class="nav-number">1.0.2.5.</span> <span class="nav-text">组件缓存</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Emethods%E6%96%B9%E6%B3%95%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE%E5%90%8E%EF%BC%8C%E5%9C%A8%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%A4%96%E8%AE%BF%E9%97%AE%E4%B8%8D%E5%88%B0data%E5%B1%9E%E6%80%A7"><span class="nav-number">1.0.2.6.</span> <span class="nav-text">关于methods方法中获取数据后，在作用域外访问不到data属性</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#async-await"><span class="nav-number">1.0.2.6.1.</span> <span class="nav-text">async await</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#element-table%E7%BB%84%E4%BB%B6"><span class="nav-number">1.0.2.7.</span> <span class="nav-text">element-table组件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#web%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="nav-number">1.0.3.</span> <span class="nav-text">web性能优化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#echarts%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7"><span class="nav-number">1.0.4.</span> <span class="nav-text">echarts常用属性</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#legend-%E5%9B%BE%E4%BE%8B%E7%BB%84%E4%BB%B6"><span class="nav-number">1.0.4.0.1.</span> <span class="nav-text">legend(图例组件)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#grid"><span class="nav-number">1.0.4.0.2.</span> <span class="nav-text">grid</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#xAxis%E3%80%81yAxis"><span class="nav-number">1.0.4.0.3.</span> <span class="nav-text">xAxis、yAxis</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Joho Wei"
+      src="https://t7.baidu.com/it/u=1595072465,3644073269&fm=193&f=GIF">
+  <p class="site-author-name" itemprop="name">Joho Wei</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+  </nav>
+</div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://www.baidu.com/" title="https:&#x2F;&#x2F;www.baidu.com&#x2F;" rel="noopener" target="_blank">百度</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Joho Wei</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
+
+<!-- 动态背景 -->
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
